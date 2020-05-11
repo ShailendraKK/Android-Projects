@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+  <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <android.support.v7.widget.AppCompatImageButton
+
+        android:background="@drawable/camera_normal"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+      android:id="@+id/_resume"
+       />
+    <android.support.v7.widget.AppCompatImageButton
+
+        android:background="@drawable/camera_photo_notes"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/_new"
+        />
+
+  </TableRow>
+  <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Resume"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="New"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/textView1" />
+  </TableRow>
+
+
+</LinearLayout>

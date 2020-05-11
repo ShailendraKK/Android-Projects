@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<TableRow android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:text="Please chose your action"
+      android:textColor="@color/material_pink_500"
+
+      android:id="@+id/textView2" />
+
+</TableRow>
+  <TableRow android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <android.support.design.widget.CoordinatorLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/cl"
+        >
+      <android.support.design.widget.FloatingActionButton
+          android:src="@drawable/ic_play"
+          android:id="@+id/resume_notes1"
+
+          app:backgroundTint= "@color/material_indigo_500"
+
+          android:layout_marginLeft="16dp"
+          android:layout_marginBottom="16dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:layout_anchor="@id/cl"
+          app:layout_anchorGravity="left|bottom"
+
+          />
+      <android.support.design.widget.FloatingActionButton
+          android:src="@drawable/ic_add_white"
+          android:id="@+id/new_notes1"
+
+          app:backgroundTint= "@color/material_indigo_500"
+
+          android:layout_marginLeft="16dp"
+          android:layout_marginBottom="16dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:layout_anchor="@id/cl"
+          app:layout_anchorGravity="center_horizontal|bottom"
+
+          />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+  </TableRow>
+
+  <TableRow
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Resume"
+        android:textColor="@color/material_pink_500"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="New"
+        android:textColor="@color/material_pink_500"
+        android:layout_marginLeft="50dp"
+
+        android:id="@+id/textView1" />
+  </TableRow>
+
+
+</LinearLayout>
