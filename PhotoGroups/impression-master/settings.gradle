@@ -1,3 +1,0 @@
-include ':app', ':subsampling-scale-image-view', ':android-ad-sdk'
-
-include ':androidHorizontalListView'
