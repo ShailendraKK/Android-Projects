@@ -1,0 +1,154 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_back"
+    tools:context="com.shailendra.photonotesgallery.media.HeadSetFrament">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HeadSet Automate"
+            android:id="@+id/switch1"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right|top" />
+        <View android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Foto Valley in video mode"
+            android:id="@+id/switch2"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right|top" />
+        <View android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start other app :"
+            android:id="@+id/switch3"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right|top" />
+        <View android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+      <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HeadSet Automate allows you to perform some action when headsets are connected :"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#f9f6f6"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HeadSet Automate is disabled by default, Click below to enable it :"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#f9f6f6"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable HeadSet Automate"
+        android:id="@+id/headset_enabled"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Foto Valley :"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#f9f6f6"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can start the Foto Valley App in video mode when headsets are connected."
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#f9f6f6"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Foto Valley"
+        android:id="@+id/btn_png_launch"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Foto Valley :"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#f9f6f6"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can start any app of your choice when headsets are connected."
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        />
+
+-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help :"
+        android:id="@+id/help"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        />
+ <!--   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/app_name"
+        android:textColor="#ffffff"
+        />-->
+</LinearLayout>
+
+</FrameLayout>

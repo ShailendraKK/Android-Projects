@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="AppTheme" parent="_ParentTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="editor_option_selector">@drawable/editor_option_ripple_selector</item>
+        <item name="grid_selector">@drawable/grid_ripple_selector</item>
+        <item name="menu_selector">@drawable/menu_ripple_selector</item>
+        <item name="video_overlay_selector">@drawable/video_overlay_ripple_selector</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:textColor">?android:textColorPrimary</item>....6+6
+    </style>
+
+    <style name="AppTheme.Dark" parent="_ParentThemeDark">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="editor_option_selector">@drawable/editor_option_ripple_selector</item>
+        <item name="grid_selector">@drawable/grid_ripple_selector_dark</item>
+        <item name="menu_selector">@drawable/menu_ripple_selector_dark</item>
+        <item name="video_overlay_selector">@drawable/video_overlay_ripple_selector</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Viewer" parent="@style/_ParentTheme">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.Viewer.Dark" parent="@style/_ParentThemeDark">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.Settings" parent="AppTheme">
+    </style>
+
+    <style name="AppTheme.Settings.Dark" parent="AppTheme.Dark">
+    </style>
+
+</resources>

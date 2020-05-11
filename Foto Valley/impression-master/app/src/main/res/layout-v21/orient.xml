@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <android.support.design.widget.CoordinatorLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/cl"
+            >
+            <SurfaceView
+                android:id="@+id/crime_camera_surfaceView"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:src="@mipmap/ic_action"
+                android:id="@+id/btndemo"
+                app:backgroundTint="@color/material_indigo_500"
+                app:fabSize="normal"
+                android:layout_marginRight="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_anchor="@id/crime_camera_surfaceView"
+                app:layout_anchorGravity="right|center"
+
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:src="@mipmap/back"
+                android:id="@+id/back_btn"
+                app:backgroundTint="@color/material_indigo_500"
+                app:fabSize="normal"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_anchor="@id/crime_camera_surfaceView"
+                app:layout_anchorGravity="bottom|right|end"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:src="@mipmap/done"
+                android:id="@+id/done"
+                app:backgroundTint="@color/material_indigo_500"
+                app:fabSize="normal"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_anchor="@id/crime_camera_surfaceView"
+                app:layout_anchorGravity="top|right|end"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:src="@mipmap/auto_flash"
+                android:id="@+id/flash"
+                app:backgroundTint="@color/material_indigo_500"
+                app:fabSize="normal"
+
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_anchor="@id/crime_camera_surfaceView"
+                app:layout_anchorGravity="center|left"
+                />
+        </android.support.design.widget.CoordinatorLayout>
+
+    </LinearLayout>
+    <com.shailendra.photonotesgallery.photonotes.CircleImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:visible="false"
+        android:id="@+id/image_view"
+        app:civ_border_width="2dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:civ_border_color="@color/dark" />
+
+    <FrameLayout android:id="@+id/crime_camera_progressContainer"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:visibility="invisible">
+        <ProgressBar style="@android:style/Widget.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+
+
+    </FrameLayout>
+
+</FrameLayout>
